@@ -1,0 +1,530 @@
+#btn_blue {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 40px;
+    width: 40%;
+}
+#btn_blue li {
+    background: none repeat scroll 0 0 #138CBE;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    float: left;
+    margin: 0 5px;
+}
+#btn_blue a {
+    -moz-transition: background 0.5s linear 0s;
+    background: none repeat scroll 0 0 #138CBE;
+    border-bottom: 1px solid #105273;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #8AD6FC;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Tahoma";
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #0C5C84;
+}
+#btn_blue a:hover {
+    background: none repeat scroll 0 0 #52C0F7;
+    border-bottom: 1px solid #105273;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #8AD6FC;
+    color: #086E99;
+    text-shadow: 0 1px 0 #9DDEFE;
+}
+#btn_green {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 40px;
+    width: 45%;
+}
+#btn_green li {
+    background: none repeat scroll 0 0 #4EAC1C;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    float: left;
+    margin: 0 5px;
+}
+#btn_green a {
+    -moz-transition: background 0.5s linear 0s;
+    background: none repeat scroll 0 0 #4EAC1C;
+    border-bottom: 1px solid #338208;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #89EB54;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Tahoma";
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #2E7508;
+}
+#btn_green a:hover {
+    background: none repeat scroll 0 0 #71D23D;
+    border-bottom: 1px solid #2C7306;
+    border-top: 1px solid #AFFC85;
+    color: #2E7508;
+    text-shadow: 0 1px 0 #AFFC85;
+}
+#btn_orange {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 80px;
+    width: 50%;
+}
+#btn_orange li {
+    background: none repeat scroll 0 0 #FE5400;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    float: left;
+    margin: 0 5px;
+}
+#btn_orange a {
+    -moz-transition: background 0.5s linear 0s;
+    background: none repeat scroll 0 0 #FE5400;
+    border-bottom: 1px solid #C0470B;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #FEA174;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Tahoma";
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #9E3705;
+}
+#btn_orange a:hover {
+    background: none repeat scroll 0 0 #F27E44;
+    border-bottom: 1px solid #C0470B;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #FFA980;
+    color: #9A3807;
+    text-shadow: 0 1px 0 #FFA980;
+}
+#btn_red {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 80px;
+    width: 40%;
+}
+#btn_red li {
+    background: none repeat scroll 0 0 #D52626;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    float: left;
+    margin: 0 5px;
+}
+#btn_red a {
+    -moz-transition: background 0.5s linear 0s;
+    background: none repeat scroll 0 0 #D52626;
+    border-bottom: 1px solid #A10C0C;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #FB3C3C;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Tahoma";
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #E24141;
+}
+#btn_red a:hover {
+    background: none repeat scroll 0 0 #E24141;
+    border-bottom: 1px solid #C0470B;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #EC5353;
+    color: #970808;
+    text-shadow: 0 1px 0 #F25E5E;
+}
+#btn_yellow {
+    float: left;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 120px;
+    width: 100%;
+}
+#btn_yellow li {
+    background: none repeat scroll 0 0 #F0C107;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    float: left;
+    margin: 0 5px;
+}
+#btn_yellow a {
+    -moz-transition: background 0.5s linear 0s;
+    background: none repeat scroll 0 0 #F0C107;
+    border-bottom: 1px solid #BB9707;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #F8CD22;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Tahoma";
+    font-size: 1.2em;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #BB9707;
+}
+#btn_yellow a:hover {
+    background: none repeat scroll 0 0 #FBD53E;
+    border-bottom: 1px solid #BB9707;
+    border-radius: 10px 10px 10px 10px;
+    border-top: 1px solid #FEE37A;
+    color: #B18D00;
+    text-shadow: 0 1px 0 #FEE37A;
+}
+.lists_blue, .lists_green, .lists_red, .lists_orange, .lists_yellow {
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+}
+ul.list1 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list1 li {
+    background: url("../novasimg/list1.png") no-repeat scroll 4px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list2 li {
+    background: url("../novasimg/list2.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list3 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list3 li {
+    background: url("../novasimg/list3.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list4 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list4 li {
+    background: url("../novasimg/list4.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list1_green {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list1_green li {
+    background: url("../novasimg/list1_green.png") no-repeat scroll 4px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list2_green {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list2_green li {
+    background: url("../novasimg/list2_green.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list3_green {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list3_green li {
+    background: url("../novasimg/list3_green.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list4_green {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list4_green li {
+    background: url("../novasimg/list4_green.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list1_red {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list1_red li {
+    background: url("../novasimg/list1_red.png") no-repeat scroll 4px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list2_red {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list2_red li {
+    background: url("../novasimg/list2_red.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list3_red {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list3_red li {
+    background: url("../novasimg/list3_red.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list4_red {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list4_red li {
+    background: url("../novasimg/list4_red.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list1_orange {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list1_orange li {
+    background: url("../novasimg/list1_orange.png") no-repeat scroll 4px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list2_orange {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list2_orange li {
+    background: url("../novasimg/list2_orange.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list3_orange {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list3_orange li {
+    background: url("../novasimg/list3_orange.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list4_orange {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list4_orange li {
+    background: url("../novasimg/list4_orange.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list1_yellow {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list1_yellow li {
+    background: url("../novasimg/list1_yellow.png") no-repeat scroll 4px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list2_yellow {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list2_yellow li {
+    background: url("../novasimg/list2_yellow.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list3_yellow {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list3_yellow li {
+    background: url("../novasimg/list3_yellow.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+ul.list4_yellow {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 25%;
+}
+ul.list4_yellow li {
+    background: url("../novasimg/list4_yellow.png") no-repeat scroll 6px 3px transparent;
+    display: block;
+    float: left;
+    height: 16px;
+    margin-left: 10px;
+    padding-left: 20px;
+    position: relative;
+}

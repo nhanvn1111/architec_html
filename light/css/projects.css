@@ -1,0 +1,373 @@
+/********** start PROJECTS PAGE **********/
+.wrapper_c .content #projects{
+	position: relative;
+	float: left;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+.gallery_projects{
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+}
+.gallery_projects .content_proj{
+	width:819px;
+	height:586px;
+	position:relative;
+	left: 60px;
+	top: 40px;
+	overflow: hidden;
+}
+.content_proj .proj_nav{
+	height: 21px;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    width: 15px;
+    z-index: 999;
+}
+.content_proj .proj_nav .tj_prev{
+	width: 15px;
+	height: 8px;
+	position: relative;
+	float: left;
+	display: block;
+	background: url(../img/tj_prev.png);
+	background-position: 0 0;
+	text-indent: -9999px;
+	top: 10px;
+	cursor: pointer;
+}
+.content_proj .proj_nav .tj_prev span.hover{
+	width: 15px;
+	height: 8px;
+	position: relative;
+	float: left;
+	display: block;
+	background: url(../img/tj_prev.png);
+	background-position: 0 9px;
+}
+.content_proj .proj_nav .tj_next{
+	width: 15px;
+	height: 8px;
+	position: relative;
+	float: left;
+	display: block;
+	background: url(../img/tj_next.png);
+	background-position: 0 0;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.content_proj .proj_nav .tj_next span.hover{
+	width: 15px;
+	height: 8px;
+	position: relative;
+	float: left;
+	display: block;
+	background: url(../img/tj_next.png);
+	background-position: 0 -11px;
+}
+.content_proj ul.linkseffects{
+	background: url("../img/vrtprj.png") no-repeat scroll 10px 0 transparent;
+    float: left;
+    height: 16px;
+    margin-left: 7px;
+    padding-left: 20px;
+    position: relative;
+    top: 3px;
+    width: 500px;
+}
+.content_proj ul.linkseffects li{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.content_proj ul.linkseffects li .selected{
+	color: #E8F2F6;
+}
+.content_proj ul.linkseffects li a{
+	color: #5a6266;
+	padding-right: 10px;
+	text-shadow: 0 1px 0 #000;
+}
+.content_proj ul.linkseffects .leffect span.hover{
+	color: #989898;
+	padding-right: 10px;
+}
+.content_proj .projects{
+	float: left;
+    height: 67%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+    left: -5px;
+}
+.content_proj .projects ul li{
+	position: relative; 
+	float: left;
+	border: 4px solid #fff;
+	margin: 5px;
+	
+}
+.content_proj .projects ul li .descript{
+	width: 157px;
+	left: 0;
+	color: #fff;
+	background: url(../img/overproj.png) no-repeat;
+	position: absolute;
+	bottom: 1px;
+	padding-left: 10px;
+	line-height: 28px;
+	top: 193px;
+	overflow: hidden;
+}
+/********** start OPEN PROJECTS PAGE **********/
+#projectmoreinfo	
+.proj_nav{
+	position: absolute;
+	top: 40px;
+	left: 60px;
+	width: 88%;
+	height: 17px;
+	z-index: 800;
+}
+.proj_nav .backthumbs, .projectnav .backthumbs, .nobackthumbs{
+	background: url(../img/backthumbs.png);
+	background-position: 0 0;
+	position: relative;
+	float: left;
+	width: 21px;
+	height: 17px;
+	display: block;
+}
+.proj_nav .backthumbs span.hover, .projectnav .backthumbs span.hover{
+	background: url(../img/backthumbs.png);
+	background-position: 0 -18px;
+	position: relative;
+	float: left;
+	width: 21px;
+	height: 17px;
+	display: block;
+}
+.proj_nav .moreinfo, .projectnav .moreinfo, .nomoreinfo{
+	background: url(../img/moreinfo.png);
+	background-position: 0 0;
+	position: relative;
+	float: left;
+	width: 21px;
+	height: 17px;
+	display: block;
+	left: 3px;
+}
+.proj_nav .moreinfo span.hover, .projectnav .moreinfo span.hover{
+	background: url(../img/moreinfo.png);
+	background-position: 0 -18px;
+	position: relative;
+	float: left;
+	width: 21px;
+	height: 17px;
+	display: block;
+}
+.proj_nav .projectnav{
+	position: relative;
+	float: left;
+	width: auto;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	right: -4px;
+	z-index: 999;
+}
+#content_proj .projectnav, #content_proj .project-nav{
+	position: relative;
+	float: left;
+	width: 100%;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	z-index: 200;
+}
+
+#content_proj .projectnav .css_prev, #content_proj .projectnav .css_prev_nav{
+	position: relative;
+	float: left;
+	width: 17px;
+	height: 17px;
+	display: block;
+	background: url(../img/proj_prev.png);
+	background-position: 0 0;
+	left: 156px;
+}
+.proj_nav .projectnav .css_prev{
+	position: relative;
+	float: left;
+	width: 17px;
+	height: 17px;
+	display: block;
+	background: url(../img/proj_prev.png);
+	background-position: 0 0;
+	left: 681px;
+}
+.proj_nav .projectnav .css_prev span.hover,  #content_proj .projectnav .css_prev_nav span.hover{
+	position: relative;
+	float: left;
+	width: 17px;
+	height: 17px;
+	display: block;
+	background: url(../img/proj_prev.png);
+	background-position: 0 -18px;
+	cursor: pointer;
+}
+#content_proj .projectnav .css_next, #content_proj .projectnav .css_next_nav{
+	position: relative;
+	float: left;
+	width: 17px;
+	height: 17px;
+	display: block;
+	background: url(../img/proj_next.png);
+	background-position: 0 0;
+	left: 159px;
+}
+.proj_nav .projectnav .css_next{
+	position: relative;
+	float: left;
+	width: 17px;
+	height: 17px;
+	display: block;
+	background: url(../img/proj_next.png);
+	background-position: 0 0;
+	left: 684px;
+}
+.proj_nav .projectnav .css_next span.hover,  #content_proj .projectnav .css_next_nav span.hover{
+	position: relative;
+	float: left;
+	width: 17px;
+	height: 17px;
+	display: block;
+	background: url(../img/proj_next.png);
+	background-position: 0 -18px;
+	cursor: pointer;
+}
+.openproject{
+	position: relative;
+	float: left;
+	top: 43px;
+	left: 60px;
+	width: 100%;
+	height: auto;
+}
+.openproject .project_content{
+	position: relative;
+	float: left;
+	width: 92%;
+	height: auto;
+	left: 0;
+	top: 35px;
+}
+.openproject .project_content .slideprojects{
+	width: 423px;
+	height: 350px;
+	position: relative;
+	float: left;
+}
+
+.openproject .project_content .slideprojects .social{
+	position: relative;
+	float: left;
+	padding-top: 12px;
+}
+.openproject .project_content .slideprojects .social p, .openproject .project_content .slideprojects .social a{
+	font-size: 11px;
+	color: #D9E7EC; 
+}
+.openproject .project_content .projectinfo{
+	width: 299px;
+	height: 350px;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	left: 35px;
+}
+.openproject .project_content .typedivider{
+	background: url(../img/linedividerh.png) repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 2px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 299px;
+}
+.openproject .project_content .title{
+	width: 299px;
+	height: 42px;
+	top: 9px;
+	position: relative;
+	float: left;
+	text-shadow: 0 1px 0 #000;
+}
+.openproject .project_content .title h2{
+	font-weight: 100;
+	color: #C1B565;
+}
+.openproject .project_content .projectinfo .info{
+	width: 299px;
+	height: 303px;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	top: 15px;
+	line-height: 15px;
+	text-align: justify;
+}
+.openproject .project_content .projectinfo .info h6{
+	color: #65a9c1;
+	padding-bottom: 4px;
+	text-shadow: 0 1px 0 #000;
+	letter-spacing: 0.1px;
+}
+/**** end OPEN PROJECTS PAGE ****/
+
+#content_proj .typedividerpr{
+	background: url("../img/linedividerh.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 2px;
+    left: 0;
+    margin: 10px 0 5px 0;
+    position: relative;
+    width: 761px;
+}
+#content_proj .typedividerprbottom{
+	background: url("../img/linedividerh.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 2px;
+    left: 0;
+    margin: 0;
+    position: relative;
+    width: 761px;
+}
+#projectmoreinfo .typedividerpr{
+	background: url("../img/linedividerh.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 2px;
+    left: 60px;
+    position: absolute;
+    top: 66px;
+    width: 758px;
+}
+#projectmoreinfo .typedividerprbottom{
+	background: url("../img/linedividerh.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 2px;
+    left: 60px;
+    position: absolute;
+    top: 460px;
+    width: 758px;
+}

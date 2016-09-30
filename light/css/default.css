@@ -1,0 +1,1517 @@
+@import url("features.css");
+@import url("reset.css");
+@import url("prettyPhoto.css");
+@import url("projects.css");
+@import url("typography.css");
+@import url("news.css");
+@import url("nivo-slider.css");
+/* 
+========================================
+	Architec v1.0 by DesignareThemes
+========================================
+A)  GLOBAL
+	1.  General
+	2.  Top Slider & Panel
+	3.  Header & Logo
+	4.  Wrapper
+	5.  Menu
+	6.  Title page
+	7.  Search page
+	
+B)  ABOUT
+	1. General
+
+C)  TESTIMONIALS
+	1. General
+	
+D)  TYPOGRAPHY
+	1. General
+
+E)  NOTIFICATION BOXES
+	1. General	
+	
+F)  TABS/ACCORDION
+	1. Tabs
+	2. Accordion
+
+G)  FOOTER
+	1. General
+
+	
+	A) GLOBAL
+-------------------------------------------
+	1. General
+-------------------------------------------
+*/
+body {
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	white-space:normal;
+	background: #fff;
+	color: #D9E7EC;
+	font-size: 12px;
+	font-family: "Tahoma", "Arial", sans-serif;
+}
+
+/*	
+-------------------------------------------
+	2. Top Slider & Panel
+-------------------------------------------
+*/
+#topslide{
+	width: 100%;
+	position: relative;
+	float: left;
+	top: 0;
+	left: 0;
+	background: url(../img/bgtopslide.jpg);
+	height: 323px;
+	border-bottom: 5px solid #000;
+	border-top: 4px solid #000;
+	overflow: hidden;
+	display: none;
+	z-index: 999;
+}
+#topslide #panel{
+	width: 1050px;
+	position: relative;
+	margin: 0 auto;
+	left: 47px;
+}
+#panel .contactinfo{
+	width: 100%;
+	position: relative;
+	float: left;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+#panel .contactinfo .locationhello{
+	position: relative;
+	width: 1050px;
+	margin: 0 auto 33px;
+	top: 20px;
+}
+#panel .contactinfo .locationhello h4{
+	font-size: 22px;
+	color: #7E9046;
+	font-weight: 400;
+}
+#panel .contactinfo .locationhello .loc{
+	position: relative;
+	float: left;
+	left: 0;
+}
+
+#panel .contactinfo .locationhello .hel{
+	position: relative;
+	float: right;
+	right: 360px;
+}
+#panel .architecinfo{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 245px;
+	left: 0;
+	top: 30px;
+}
+#panel .architecinfo .art{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-bottom: 15px;
+}
+#panel .architecinfo .art .titleinf{
+	color: #767676;
+}
+#panel .architecinfo .art p{
+	color: #FFFFFF;
+    line-height: 14px;
+    padding-top: 1px;
+    text-shadow: 0 1px 0 #000000;
+}
+#panel .architecinfo .art a{
+	color: #fff;
+	text-decoration: none;	
+}
+#panel .architecinfo .evlp{
+	position: relative;
+	top: 5px;
+}
+#panel .googlemap{
+	width: 392px;
+	height: 232px;
+	position: relative;
+	float: left;
+	top: 25px;
+	left: 10px;
+}
+#panel .googlemap .mapimg{
+	width: 392px;
+	height: 222px;
+	position: relative;
+	float: left;
+	background: url(../img/googlemap.png);
+	background-position: 0 0;
+	display: block;
+}
+
+#panel .googlemap .mapimg span.hover{
+	width: 392px;
+	height: 222px;
+	position: relative;
+	float: left;
+	background: url(../img/googlemap.png);
+	background-position: 0px -222px;
+	display: block;
+}
+#panel .linedivider{
+	width: 2px;
+	height: 213px;
+	position: relative;
+	float: left;
+	margin: 29px 40px 0 50px;
+	background: url(../img/dividertop.png) no-repeat;
+}
+/** start Form **/
+#panel .contactform{
+	width: 352px;
+	height: 218px;
+	position: relative;
+	float: left;
+	top: 0;
+}
+#panel .contactform ul.form{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#panel .contactform ul.form li{
+	width: 352px;
+	height: 35px;
+	position: relative;
+	color: #000;
+}
+#panel .contactform ul.form input{
+	background: none repeat scroll 0 0 #1F1E1E;
+    border-color: #000000 #000000 #383737;
+    border-style: solid;
+    border-width: 1px;
+    color: #696969;
+    float: left;
+    font-family: "Tahoma","Arial",sans-serif;
+    font-size: 12px;
+    height: 18px;
+    letter-spacing: 0.1px;
+    padding: 3px;
+    position: relative;
+    text-shadow: 0 1px 0 #000000;
+    width: 345px;
+}
+#panel .contactform ul.form input:focus{
+	background: #363636;
+	color:#b5b5b5;
+	border-bottom: 1px solid #454545;
+}
+#panel .contactform ul.form .message{
+	width: 349px;
+	height: 90px;
+	position: relative;
+	float: left;
+	background: #1f1e1e;
+	border-bottom: 1px solid #383737;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+	color: #696969;
+	padding: 3px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
+}
+/** Form validation **/
+.form_error{
+	color: #BD3030;
+    display: block;
+    float: left;
+    font-size: 11px;
+    height: auto;
+    left: 0;
+    letter-spacing: 0.3px;
+    padding: 5px;
+    position: relative;
+    text-shadow: 0 1px 0 #000000;
+    width: 100%;
+}
+
+.form_success{
+	color: #14af08;
+	font-size: 11px;
+	position: relative;
+	float: left;
+	height: auto;
+	width: 100%;
+	font-style: italic;
+	display: block;
+	padding: 20px 0 10px 0;
+}
+#panel .contactform ul.form .button{
+	width: 90px;
+	height: 30px;
+	position: relative;
+	float: left;
+	border: none;
+	background: url(../img/btnsend.png) no-repeat top;
+	background-position: 0 0;
+	top: 0;
+	display: block;
+	left: 0;
+}
+#panel .contactform ul.form .button span.hover{
+	width: 90px;
+	height: 30px;
+	position: absolute;
+	border: none;
+	background: url(../img/btnsend.png) no-repeat bottom;
+	top: 0;
+	cursor: pointer;
+	display: block;
+}
+/** end Form **/
+#top{
+	width: 100%;
+	height: 1px;
+	background: #000;
+}
+#top .btntopslide{
+	width: 1035px;
+	height: 30px;
+	position: relative;
+	margin: 0 auto;
+	right: 0;
+}
+#toggle{
+	position: relative;
+	float: right;
+	width: 59px;
+	height: 30px;
+	z-index: 999;
+	list-style: none;
+}
+#toggle .open{
+	position: relative;
+	float: left;
+	width: 59px;
+	height: 30px;
+	background: url(../img/btntopslide_open.png) no-repeat;
+	background-position: 0 0;
+	display: block;
+	top: -1px;
+}
+#toggle .close{
+	position: relative;
+	float: left;
+	width: 59px;
+	height: 30px;
+	background: url(../img/btntopslide_close2.png) no-repeat;
+	background-position: 0 0;
+	display: block;
+	top: -29px;
+}
+
+/*	
+-------------------------------------------
+	3. Header & Logo
+-------------------------------------------
+*/
+#header{
+	width: 100%;
+	height: 115px;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#header .header_c{
+	position: relative;
+	width: 1050px;
+	height: 115px;
+	margin: 0 auto;
+}
+
+#logo{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	float: left;
+	margin: 23px 0 0 35px;
+}
+#header .creditstheme{
+	position: relative;
+	float: left;
+	top: 66px;
+	left: 22px;
+	line-height: 18px;
+	padding-left: 21px;
+	color: #c3c3c3;
+	background: url(../img/lindiv.png) no-repeat;
+}
+#header .social_search{
+	width: auto;
+	height: 35px;
+	position: relative;
+	float: right;
+	right: 0;
+	top: 37px;
+}
+.social_search .social{
+	width: 42px;
+	height: 35px;
+	position: relative;
+	float: left;
+	margin-right: 20px;
+	padding: 0;
+}
+.social_search .social .twitter{
+	background: url(../img/twitter.png);
+	background-position: 0 0;
+	width: 17px;
+	height: 12px;
+	display: block;
+	position: relative;
+	float: left;
+	text-indent: -9999px;
+}
+.social_search .social .twitter span.hover{
+	background: url(../img/twitter.png);
+	background-position: 0 -12px;
+	width: 17px;
+	height: 12px;
+	display: block;
+	position: relative;
+	float: left;
+	text-indent: -9999px;
+}
+
+.social_search .social .facebook{
+	background: url(../img/facebook.png);
+	background-position: 0 0;
+	width: 14px;
+	height: 14px;
+	display: block;
+	position: relative;
+	float: left;
+	text-indent: -9999px;
+	left: 5px;
+}
+.social_search .social .facebook span.hover{
+	background: url(../img/facebook.png);
+	background-position: 0 -14px;
+	width: 14px;
+	height: 14px;
+	display: block;
+	position: relative;
+	float: left;
+	text-indent: -9999px;
+}
+.social_search .search{
+	position: relative;
+	float: right;
+	right: 20px;
+	width: 200px;
+}
+.social_search .search li{
+	position: relative;
+	float: left;
+	left: 10px;
+	width: 250px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.social_search .search li .text{
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 22px;
+	border-bottom: 1px solid #eeeeee;
+	border-top: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+	border-right: none;
+	color: #dedede;
+	padding-left: 5px;
+	font-family: "Tahoma", sans-serif;
+}
+.social_search #search-btn{
+	border: none;
+	background: url(../img/btnsearch.png);
+	width: 47px;
+	height: 26px;
+	display: block;
+	color: #e6e6e6;
+	position: relative;
+	float: left;
+}
+/*
+#twitter a {
+	position: relative;
+	float: left;
+	background: url(../img/twitter.png);
+	text-indent: -5000px;
+	height: 13px;
+	width: 17px;
+	margin-right: 15px;
+}
+
+#twitter_hover {
+	position: absolute;
+	top:0;
+	left:20px;
+	height:11px;
+	width:170px;
+	margin: 0;
+	padding:0;
+	background: url(../img/twitter_hover.png);
+	opacity: 0;
+	filter:alpha(opacity=0)
+}
+*/
+
+/*	
+-------------------------------------------
+	4. Wrapper
+-------------------------------------------
+*/
+#wrapper{
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	left: 0;
+}
+#wrapper .wrapper_c{
+	width: 1050px;
+	height: auto;
+	position: relative;
+	margin: 0 auto;
+}
+.wrapper_c #menu{
+	width: 157px;
+	height: 170px;
+	position: relative;
+	float: left;
+	
+}
+
+.wrapper_c .stronglineleft{
+	background: url("../img/stronglineleft.png") no-repeat scroll 0 0 transparent;
+    height: 461px;
+    left: -304px;
+    position: absolute;
+    top: 1px;
+    width: 462px;
+    overflow: hidden;
+    display: block;
+}
+.wrapper_c .stronglineright{
+	background: url("../img/stronglineright.png") no-repeat scroll 0 0 transparent;
+    height: 304px;
+    position: absolute;
+    right: -345px;
+    top: 0;
+    width: 359px;
+    overflow: hidden;
+    display: block;
+}
+.wrapper_c .lineright{
+	background: url("../img/lineright.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    height: 309px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    right: -288px;
+    top: 256px;
+    width: 301px;
+}
+.wrapper_c .content{
+	position: relative;
+	float: left;
+	width: 882px;
+	height: 564px;
+	background: url(../img/bgcontent2.png) repeat;
+}
+.wrapper_c .content .content_home{
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	z-index: 600;
+}
+.wrapper_c .content .hidecorner{
+	position: absolute;
+	width: 104px;
+	height: 104px;
+	left: 0;
+	bottom: 0;
+	background: url(../img/hidecorner.png) no-repeat;
+	z-index: 999;
+}
+.wrapper_c .content .content_home .slogan{
+	background: url("../img/slogan.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 80px;
+    left: 144px;
+    position: relative;
+    top: 121px;
+    width: 643px;
+}
+.wrapper_c .content .content_home .btnseework{
+	position: relative;
+	float: left;
+	width: 185px;
+	height: 41px;
+	background: url(../img/btnseework.png);
+	background-position: 0px 0px;
+	display: block;
+	right: 43px;
+	top: 260px;
+	text-indent: -9999px;
+}
+.wrapper_c .content .content_home .btnseework span.hover{
+	position: relative;
+	float: left;
+	width: 185px;
+	height: 41px;
+	background: url(../img/btnseework.png);
+	background-position: 0px -42px;
+	display: block;	
+}
+
+/*	
+-------------------------------------------
+	5. Menu
+-------------------------------------------
+*/
+#menu ul{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	left: -15px;
+}
+#menu ul li{
+	position: relative;
+	height: 29px;
+	width: 172px;
+	display: block;
+}
+
+#menu ul li a{
+	color: #474747;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 29px;
+    line-height: 31px;
+    overflow: hidden;
+    padding-left: 50px;
+    text-decoration: none;
+    width: 172px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0.1px;
+}
+#menu ul li a:hover, #menu ul li a.selected{
+	color: #fff;
+	background: url(../img/btnhover.png);
+}
+#menu ul li:hover a.top_link{
+	color: #fff;
+	background: url(../img/btnhover_toplink.png);
+}
+#menu ul li ul{
+	position: absolute;
+	display:block;
+	visibility:hidden;
+	background:#171616;
+	margin: 0;
+	padding: 0;
+}
+#menu ul li ul li {
+	display: list-item;
+	float: none;
+	height: 29px;
+	margin: 0;
+	padding: 0;
+	border-bottom:none;
+	display: block;
+	border-bottom: 1px solid #201f1f;
+}
+#menu ul li ul li a {
+	display: list-item;
+	float: none;
+	line-height: 30px;
+	width: 170px;
+	margin: 0;
+	padding-left: 15px;
+	border-top-width: 0;
+	color: #7d7d7d;
+	letter-spacing: 0.2px;
+}
+#menu ul li ul li a:hover {
+	color: #fff;
+	background: #000;
+	height: 29px;
+	width: auto;
+	text-shadow: 0 1px 0 #000;
+	
+}
+/*	
+-------------------------------------------
+	6. Title Page
+-------------------------------------------
+*/
+.content .titlepage{
+	height: 22px;
+    position: absolute;
+    right: 1px;
+    top: -23px;
+    width: auto;
+    z-index: 999;
+}
+
+.content .titlepage p{
+	background: url("../img/btntitlepage_right.png") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-right: 25px;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #000;
+}
+
+.content .titlepage p span{
+	background: url("../img/btntitlepage_left.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 22px;
+    padding: 4px 8px 0 14px;
+}
+/*	
+-------------------------------------------
+	7. Search Page
+-------------------------------------------
+*/
+.notification .showresult{
+	position: relative;
+	float: left;
+	padding: 40px;
+}
+.notification .titsearch{
+	font-size: 18px;
+	color: #0597D4;
+}
+.notification p{
+	font-size: 16px;
+}
+/*	
+	B) ABOUT
+-------------------------------------------
+	1. General
+-------------------------------------------
+*/
+.about_content, testimonials_content{
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+.about_content .about_text{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.about_content .about_text .about{
+	background: url("../img/abouttext.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 223px;
+    left: 56px;
+    position: relative;
+    top: 50px;
+    width: 750px;
+}
+.about_content .about_text .about .aligntxt, about_content .about_team .team .alignteam{
+	width: 684px;
+	height: 250px;
+	position: relative;
+	float: left;
+	left: 50px;
+	top: 25px;
+}
+.about_content .about_text .about h5, .about_content .about_team .team h5{
+	color: #0597d4;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding-bottom: 20px;
+	text-shadow: 0 1px 0 #000;
+}
+.about_content .about_text .about p{
+	color: #E8F2F6;
+    font-size: 13px;
+    line-height: 20px;
+    padding-right: 23px;
+    text-shadow: 0 1px 0 #000000;
+}
+.about_content .about_team{
+	position: relative;
+	float: left;
+	height: 247px;
+	width: 100%;
+}
+.about_content .about_team .team{
+	background: url("../img/aboutteam.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 247px;
+    left: 279px;
+    position: relative;
+    top: 51px;
+    width: 476px;
+}
+.about_content .about_team .team .alignteam{
+	width: 400px;
+	height: 250px;
+	position: relative;
+	float: left;
+	left: 50px;
+	top: 25px;
+}
+.about_content .about_team .team .alignteam .elem{
+	width: 120px;
+	height: 160px;
+	position: relative;
+	float: left;
+	padding-right: 2px;
+}
+.about_content .about_team .team .alignteam .elem h6{
+	color: #C1B565;
+	font-weight: 100;
+	text-shadow: 0 1px 0 #000;
+}
+.about_content .about_team .team .alignteam .elem p{
+	color: #c2dfea;
+	padding-bottom: 3px;
+	text-shadow: 0 1px 0 #000;
+}
+.about_content .about_team .team .alignteam .elem img{
+	padding-top: 5px;
+}
+.about_content .about_team .team .alignteam .divelem{
+	background: url(../img/teamdivider.png) no-repeat;
+	width: 2px;
+	height: 85px;
+	margin: 47px 6px 0;
+	position: relative;
+	float: left;
+}
+/*	
+	C) TESTIMONIALS
+-------------------------------------------
+	1. General
+-------------------------------------------
+*/
+.testimonials{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background: url(../img/bgcontent.png);
+	width: 88%;
+	height: 75%;
+}
+.testimonials .testimonials_content{
+	position: relative;
+	float: left;
+	width: 97%;
+	height: auto;
+	left: 32px;
+	top: 35px;
+}
+.testimonials .testbox{
+    height: 129px;
+    left: 15px;
+    position: relative;
+    top: 10px;
+    width: 96%;
+}
+.testimonials .avatar{
+	width: 90px;
+	height: 85px;
+	position: relative;
+	left: 6px;
+	top: 8px;
+	float: left;
+}
+.testimonials .text_testi{
+	float: left;
+    font-size: 12px;
+    height: 85px;
+    line-height: 16px;
+    margin-left: 16px;
+    padding: 6px;
+    position: relative;
+    text-align: justify;
+    text-shadow: 0 1px 0 #000000;
+    top: 8px;
+    width: 79%;
+}
+.testimonials .text_testi .ncmp{
+	 float: left;
+    font-size: 11px;
+    padding-top: 7px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    color: #a2c5d4;
+}
+.testimonials .text_testi .ncmp .namet{
+	color: #0597d4;
+}
+.testimonials .typedivider{
+	background: url("../img/linedividerh.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 2px;
+    left: 16px;
+    margin: -5px 0 8px;
+    position: relative;
+    width: 658px;
+}
+#actions{
+	float: right;
+    height: 40px;
+    right: 25px;
+    position: relative;
+    top: 44px;
+    width: 20px;
+}
+#actions .prev{
+	background: url("../img/proj_prev_tst.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 17px;
+    left: 0;
+    position: relative;
+    width: 17px;
+    border-bottom: 1px solid #000000;
+}
+#actions .prev span.hover{
+	background: url("../img/proj_prev_tst.png") repeat scroll 0 0 transparent;
+	background-position: 0px -18px;
+    display: block;
+    float: left;
+    height: 17px;
+    left: 0;
+    position: relative;
+    width: 17px;
+    cursor: pointer;
+}
+#actions .next{
+	background: url("../img/proj_next_tst.png") repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 17px;
+    left: 0;
+    position: relative;
+    width: 17px;
+    top: 4px;
+    border-bottom: 1px solid #000000;
+}
+#actions .next span.hover{
+	background: url("../img/proj_next_tst.png") repeat scroll 0 0 transparent;
+	background-position: 0px -18px;
+    display: block;
+    float: left;
+    height: 17px;
+    left: 0;
+    position: relative;
+    width: 17px;
+    cursor: pointer;
+}
+.scrollable {
+	height: 400px;
+    left: 27px;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+    width: 700px;
+}
+
+/* root element for scrollable items */
+.scrollable .items {
+	position:absolute;
+	/* this time we have very large space for the height */
+	height:20000em;
+	width: 103%;
+}
+/*	
+	D) Typography
+-------------------------------------------
+	1. General
+-------------------------------------------
+*/
+.typography{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background: url(../img/bgcontent.png);
+	width: 88%;
+	height: 75%;
+}
+.typography .dropcaps{
+	position: relative;
+	float: left;
+	width: 97%;
+	height: auto;
+	left: 32px;
+	top: 35px;
+}
+.typography .dropcaps h6{
+	margin-bottom: 10px;
+}
+.typography .dropcaps .drop p{
+	font-size: 13px;
+	background: none;
+	text-transform: none;
+	color: #fff;
+	width: 100%;
+	line-height: 15px;
+	text-shadow: 0 1px 0 #000;
+}
+.typography .dropcaps .drop{
+	position: relative;
+	float: left;
+	width: 45%;
+	height: 100px;
+	margin-right: 30px;
+}
+.typography .dropcaps .drop{
+	color: #fff;
+	text-align: left;
+	padding-top: 10px;
+}
+.typography .dropcaps .drop .drop1{
+    color: #C1B565;
+    display: block;
+    float: left;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 11px 12px 12px 0; 
+}
+.typography .dropcaps .drop .drop2{
+    background-color: #C1B565;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 31px;
+    margin-right: 11px;
+    padding: 9px 8px 15px;
+    text-shadow: none;
+}
+.typography .headings{
+	position: relative;
+	float: left;
+	width: 96%;
+	height: auto;
+	top: 95px;
+	left: 32px;
+}
+.typography .headings h6{
+	margin-bottom: 10px;
+}
+.typography .headings .headingh p{
+	font-size: 12px;
+	background: none;
+	text-transform: none;
+	color: #fff;
+	width: 100%;
+	padding: 5px 0 0;
+	line-height: 16px;
+}
+.typography .headings .headingh{
+	position: relative;
+	float: left;
+	width: 29%;
+	height: 88px;
+	margin-right: 30px;
+	text-align: left;
+	margin-bottom: 5px;
+	text-shadow: 0 1px 0 #000;
+}
+.typography .typedivider{
+	background: url("../img/linedividerh.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 2px;
+    left: 32px;
+    position: relative;
+    top: 58px;
+    width: 707px;
+}
+/*	
+	E) Notification Boxes
+-------------------------------------------
+	1. General
+-------------------------------------------
+*/.notification{
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background: url(../img/bgcontent.png);
+	width: 88%;
+	height: 75%;
+}
+.notification .notbox{
+	position: relative;
+	float: left;
+	width: 92%;
+	height: auto;
+	left: 38px;
+	top: 35px;
+}
+.notification .notbox h6{
+	margin-bottom: 5px;
+}
+.notification .notbox .notbox_info, .notification .notbox .notbox_success, .notification .notbox .notbox_error, .notification .notbox .notbox_warning{
+	position: relative;
+	float: left;
+	width: 97%;
+	height: 40px;
+	border: 1px solid #fff;
+	margin-bottom: 20px;
+}
+.notification .notbox .notbox_success{
+	background: #d9f2b6;
+	border: 1px solid #4c7e03;
+	width: 94%;
+	padding: 10px;
+	height: 20px;
+}
+.notification .notbox .notbox_success p{
+	font-size: 12px;
+	background: url(../img/success_icon.png) no-repeat;
+	background-position: 6px 0;
+	text-transform: none;
+	color: #438e01;
+	width: 100%;
+	padding-left: 40px;
+	margin-right: 20px;
+	line-height: 22px;
+	height: 25px;
+}
+.notification .notbox .notbox_error{
+	background: #eaa896;
+	border: 1px solid #ce2f04;
+	width: 94%;
+	padding: 10px;
+	height: 20px;
+}
+.notification .notbox .notbox_error p{
+	font-size: 12px;
+	background: url(../img/error_icon.png) no-repeat;
+	background-position: 6px 0;
+	text-transform: none;
+	color: #ad0c0c;
+	width: 100%;
+	padding-left: 40px;
+	margin-right: 20px;
+	line-height: 22px;
+	height: 25px;
+}
+.notification .notbox .notbox_warning{
+	background: #faffa6;
+	border: 1px solid #e9b001;
+	width: 94%;
+	padding: 10px;
+	height: 20px;
+}
+.notification .notbox .notbox_warning p{
+	font-size: 12px;
+	background: url(../img/warning_icon.png) no-repeat;
+	background-position: 6px 0;
+	text-transform: none;
+	color: #b68a10;
+	width: 100%;
+	padding-left: 40px;
+	margin-right: 20px;
+	line-height: 22px;
+	height: 25px;
+}
+.notification .notbox .notbox_info{
+	background: #bfecff;
+	border: 1px solid #0597d4;
+	width: 94%;
+	padding: 10px;
+	height: 20px;
+}
+.notification .notbox .notbox_info p{
+	font-size: 12px;
+	background: url(../img/info_icon.png) no-repeat;
+	background-position: 6px 0;
+	text-transform: none;
+	color: #096d98;
+	width: 100%;
+	padding-left: 40px;
+	margin-right: 20px;
+	line-height: 22px;
+	height: 25px;
+}
+
+.notification .typedivider{
+	background: url("../img/linedividerh.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    height: 2px;
+    left: 38px;
+    position: relative;
+    top: 30px;
+    width: 691px;
+    margin-bottom: 8px;
+}
+/*	
+	F) Tabs/accordion
+-------------------------------------------
+	1. Tabs
+-------------------------------------------
+*/
+#tabs{
+	position: relative;
+	float: left;
+	width: 325px;
+	height: auto;
+	left: 40px;
+	top: 40px;
+	overflow: hidden;
+}
+#tabs h4{
+	margin-bottom: 10px;
+	color: #0597D4;
+	font-size: 14px;
+	
+}
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 25px;
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 25px;
+	line-height: 27px;
+	border-left: none;
+	margin-bottom: -1px;
+	margin-right: 1px;
+	overflow: hidden;
+	background: #667a82;
+	border: none;
+}
+ul.tabs li a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 0 13px;
+	outline: none;
+	font-weight: bold;
+	line-height: 25px;
+}
+ul.tabs li a:hover {
+	background: url(../img/bgtabs.png);
+	width: 100%;
+	height: 25px;
+}
+ul.tabs a:active {
+	outline:none;
+}
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs li.current a {
+	background: #fff;
+	cursor:default !important;
+	color:#7E9046 !important;
+	float: left;
+	clear: both;
+}
+.panes {
+	border-top: none;
+	clear: both;
+	float: left;
+	width: 100%;
+	background: url(../img/bgtabs.png);
+	margin-bottom:10px;
+	overflow: hidden;
+	
+}
+.panes div {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    float: left;
+    height: auto;
+    margin: 8px;
+    padding: 10px;
+    position: relative;
+    width: 89%;
+}
+.panes .imgtab1{
+	width: 126px;
+	height: 84px;
+	position: relative;
+	float: left;
+	border: 1px dotted #C2D4DA;
+}
+.panes .txttab1{
+	float: left;
+    height: auto;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 152px;
+}
+.panes .txttab1 .title{
+	color: #467C90;
+    font-size: 16px;
+    font-weight: bold;
+}
+.panes .txttab1_text2{
+	border-top: 1px solid #D6E0E3;
+    float: left;
+    height: auto;
+    left: 0;
+    margin: 15px 0;
+    padding: 10px 0;
+    position: relative;
+    width: 286px;
+}
+.panes h4{
+	font-weight:normal;
+	margin:0 0 10px 0;
+	font-size: 26px;
+	padding-bottom: 5px;
+}
+.panes p {
+	color: #5e6568;
+	line-height: 15px;
+	font-size: 13px;
+}
+/*	
+-------------------------------------------
+	2. Accordion
+-------------------------------------------
+*/
+#accordion {
+	width: 340px;
+	position: relative;
+	float: left;
+	left: 60px;
+	top: 40px;
+	overflow: hidden;
+}
+#accordion h3 {
+	padding:10px 15px;
+	font-size:12px;
+	font-weight:bold;
+	cursor:pointer;
+	background:#667A82;
+	border-bottom: 1px solid #718891;
+	color: #fff;
+	margin:0;
+	
+}
+#accordion h4{
+	margin-bottom: 10px;
+	color: #0597D4;
+	font-size: 14px;
+}
+#accordion h3.current {
+	background-color:#fff;
+	color: #7E9046;
+	border-bottom: none;
+}
+#accordion h3.current:hover {
+	background: #fff;
+	border-bottom: none;
+}
+#accordion h3:hover {
+	background:#718891;
+	border-bottom: 1px solid #7b959f;
+}
+#accordion .pane {
+	display:none;
+	height:auto;
+	padding:1px;
+	margin: 0;
+	color:#000;
+	background: url(../img/bgtabs.png);
+	width: 339px;
+}
+#accordion .pane_c {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    padding: 8px;
+    margin: 8px;
+}
+/* a title inside pane */
+#accordion .pane h4 {
+	color: #467C90;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#accordion .pane p {
+	color: #5E6568;
+    margin: 0 0 10px;
+    line-height: 15px;
+}
+/*	
+	G) Footer
+-------------------------------------------
+	1. General
+-------------------------------------------
+*/
+#footer{
+	width: 100%;
+	position: relative;
+	float: left;
+	left: 0;
+}
+#footer .footer_c{
+	width: 1050px;
+	position: relative;
+	margin: 0 auto;
+}
+#footer .footer_c .lineleft{
+	width: 454px;
+	height: 177px;
+	position: relative;
+	left: -194px;
+	bottom: 0;
+	background: url(../img/lineleft.png) no-repeat;
+}
+#footer .footer_c .textfooter{
+	float: right;
+    left: 270px;
+    position: absolute;
+    top: 10px;
+    width: 779px;
+}
+#footer .footer_c .textfooter p, #footer .footer_c .textfooter a{
+	font-size: 11px;
+	color: #C3C3C3;
+}
+#footer .footer_c .textfooter .copyrights{
+	width: 200px;
+	position: relative;
+	float: left;
+}
+#footer .footer_c .textfooter .credits{
+	width: 200px;
+	position: relative;
+	float: right;
+	text-align: right;
+	right: 10px;
+}
+/*** SWITCH LIGHT ***/
+.switchtheme .lighton{
+	background: url(../img/light_on.png) no-repeat;
+	background-position: 0 0;
+	display: block;
+	width: 138px;
+	height: 54px;
+	position: relative;
+	float: left;
+	margin-top: 27px;
+	left: 0;
+}
+.switchtheme .lightoff{
+	display: none;
+}
+.switchtheme .lighton span.hover{
+	background: url(../img/light_on.png) no-repeat;
+	background-position: 0 -55px;
+	display: block;
+	width: 138px;
+	height: 54px;
+	position: relative;
+	float: left;
+	left: 0;
+}
+/*********
+	
+	STYLE AUTO HEIGHT PAGE
+	
+********/
+.contentautoheight{
+	width: 882px;
+	height: auto;
+	position: relative;
+	float: left;
+	background: url(../img/bgcontent2.png);
+}
+.wrapper_c .contentautoheight .hidecorner{
+	background: url("../img/hidecorner.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    height: 104px;
+    left: 0;
+    position: absolute;
+    width: 104px;
+    z-index: 999;
+}
+.autoheight{
+	width: 90%;
+	height: 100%;
+	position: relative;
+	float: left;
+	margin: 40px;
+	padding-bottom: 80px;
+}
+
+.contentautoheight .titlepage {
+    height: 22px;
+    position: absolute;
+    right: 1px;
+    top: -23px;
+    width: auto;
+    z-index: 999;
+}
+.contentautoheight .titlepage p {
+    background: url("../img/btntitlepage_right.png") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 13px;
+    font-weight: 100;
+    height: 22px;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    padding-right: 25px;
+    text-shadow: 0 1px 0 #000000;
+    text-transform: uppercase;
+}
+.contentautoheight .titlepage p span {
+    background: url("../img/btntitlepage_left.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 22px;
+    padding: 4px 8px 0 14px;
+}
